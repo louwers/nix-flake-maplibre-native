@@ -60,7 +60,9 @@
           ccache
 
           clang-tools # clang-tidy
-          curl
+          curl # linux-ci
+          libjpeg # linux-ci
+          libpng # linux-ci
           /*   pkgs.androidStudioPackages.stable; */
           /*   pkgs.androidStudioPackages.beta; */
           /*   pkgs.androidStudioPackages.preview; */
